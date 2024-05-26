@@ -1,6 +1,7 @@
 package net.lightamethyst.endersteel.item;
 
 import net.lightamethyst.endersteel.Endersteel;
+import net.lightamethyst.endersteel.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ENDERSCRAP.get());
                         output.accept(ModItems.REFINED_ENDERSCRAP.get());
                         output.accept(ModItems.ENDERSTEEL_INGOT.get());
+
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
                     })
                     .build());
 
