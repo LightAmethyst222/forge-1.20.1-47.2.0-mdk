@@ -5,6 +5,8 @@
   "item.endersteel.endersteel_ingot": "Endersteel Ingot",
 
   "block.endersteel.steel_block": "Block of Steel",
+  "block.endersteel.endersteel_block": "Block of Endersteel",
+  "block.endersteel.enderscrap_ore": "Enderscrap Ore",
 
   "creativetab.endersteel": "Endersteel Tab"
 }

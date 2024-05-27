@@ -20,6 +20,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> ENDERSTEEL_BLOCK = registerBlock("endersteel_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> ENDERSCRAP_ORE = registerBlock("enderscrap_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERSTEEL_INGOT.get());
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
+                        output.accept(ModBlocks.ENDERSTEEL_BLOCK.get());
+                        output.accept(ModBlocks.ENDERSCRAP_ORE.get());
                     })
                     .build());
 
