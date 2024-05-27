@@ -15,13 +15,15 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Endersteel.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ENDERSTEEL_TAB = CREATIVE_MODE_TABS.register("endersteel_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ENDERSTEEL_INGOT.get()))
                     .title(Component.translatable("creativetab.endersteel_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        //rearrange these once all the items are added
                         output.accept(ModItems.STEEL_INGOT.get());
                         output.accept(ModItems.RAW_ENDERSCRAP.get());
                         output.accept(ModItems.REFINED_ENDERSCRAP.get());
                         output.accept(ModItems.ENDERSTEEL_INGOT.get());
+                        output.accept(ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE.get());
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.ENDERSTEEL_BLOCK.get());

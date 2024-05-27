@@ -19,6 +19,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ENDERSTEEL_INGOT = ITEMS.register("endersteel_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("endersteel_upgrade_smithing_template",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

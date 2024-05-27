@@ -3,10 +3,12 @@
   "item.endersteel.raw_enderscrap": "Raw Enderscrap",
   "item.endersteel.refined_enderscrap": "Refined Enderscrap",
   "item.endersteel.endersteel_ingot": "Endersteel Ingot",
+  "item.endersteel.endersteel_upgrade_smithing_template": "Endersteel Upgrade Smithing Template",
+
 
   "block.endersteel.steel_block": "Block of Steel",
   "block.endersteel.endersteel_block": "Block of Endersteel",
   "block.endersteel.enderscrap_ore": "Enderscrap Ore",
 
-  "creativetab.endersteel": "Endersteel Tab"
+  "creativetab.endersteel_tab": "Endersteel Tab"
 }
