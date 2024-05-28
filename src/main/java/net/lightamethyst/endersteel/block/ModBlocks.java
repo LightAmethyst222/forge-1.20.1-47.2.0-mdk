@@ -2,10 +2,12 @@ package net.lightamethyst.endersteel.block;
 
 import net.lightamethyst.endersteel.Endersteel;
 import net.lightamethyst.endersteel.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,7 +26,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDERSTEEL_BLOCK = registerBlock("endersteel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ENDERSCRAP_ORE = registerBlock("enderscrap_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).sound(SoundType.DEEPSLATE)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(30.0F,1200.0F).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
