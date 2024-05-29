@@ -5,6 +5,7 @@ import net.lightamethyst.endersteel.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -27,7 +28,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.STEEL_BLOCK.get());
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.ENDERSTEEL_BLOCK.get(),
                         ModBlocks.ENDERSCRAP_ORE.get()
                 );

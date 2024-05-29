@@ -24,7 +24,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(6.0F,6.0F)));
     public static final RegistryObject<Block> ENDERSTEEL_BLOCK = registerBlock("endersteel_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ENDERSCRAP_ORE = registerBlock("enderscrap_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(30.0F,1200.0F).requiresCorrectToolForDrops(), UniformInt.of(3,7)));

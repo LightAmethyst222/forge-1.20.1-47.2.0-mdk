@@ -5,10 +5,12 @@ import net.lightamethyst.endersteel.block.ModBlocks;
 import net.lightamethyst.endersteel.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.io.Writer;
@@ -38,6 +40,46 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDERSTEEL_INGOT.get(), 9)
                 .requires(ModBlocks.ENDERSTEEL_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ENDERSTEEL_BLOCK.get()), has(ModBlocks.ENDERSTEEL_BLOCK.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STEEL_BLOCK.get())
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(consumer,"steel_block_from_ingots");
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.STEEL_INGOT.get(), 9)
+                .requires(ModBlocks.STEEL_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.STEEL_BLOCK.get()), has(ModBlocks.STEEL_BLOCK.get()))
+                .save(consumer, "steel_ingots_from_block");
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STEEL_BLOCK.get(),8)
+                .pattern("###")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', Blocks.IRON_BLOCK)
+                .define('C', Blocks.COAL_BLOCK)
+                .unlockedBy(getHasName(Blocks.IRON_BLOCK), has(Blocks.IRON_BLOCK))
+                .unlockedBy(getHasName(Blocks.COAL_BLOCK), has(Blocks.COAL_BLOCK))
+                .save(consumer, "steel_blocks_from_components");
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_INGOT.get(),8)
+                .pattern("###")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', Items.IRON_INGOT)
+                .define('C', Items.COAL)
+                .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .unlockedBy(getHasName(Items.COAL), has(Items.COAL))
+                .save(consumer, "steel_ingots_from_components");
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE.get(), 2)
+                .pattern("#T#")
+                .pattern("#B#")
+                .pattern("###")
+                .define('#', Items.DIAMOND)
+                .define('T', ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE.get())
+                .define('B', Blocks.END_STONE)
+                .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                .unlockedBy(getHasName(Blocks.END_STONE), has(Blocks.END_STONE))
+                .unlockedBy(getHasName(ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE.get()), has(ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE.get()))
                 .save(consumer);
     }
 

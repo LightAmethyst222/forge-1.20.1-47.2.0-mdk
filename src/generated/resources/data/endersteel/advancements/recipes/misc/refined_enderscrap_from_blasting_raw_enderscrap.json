@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_enderscrap": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endersteel:raw_enderscrap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "endersteel:refined_enderscrap_from_blasting_raw_enderscrap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_enderscrap",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "endersteel:refined_enderscrap_from_blasting_raw_enderscrap"
+    ]
+  },
+  "sends_telemetry_event": false
+}

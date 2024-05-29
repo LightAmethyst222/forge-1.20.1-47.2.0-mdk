@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "endersteel",
+  "ingredient": {
+    "item": "endersteel:raw_enderscrap"
+  },
+  "result": "endersteel:refined_enderscrap"
+}

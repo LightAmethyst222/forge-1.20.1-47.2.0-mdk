@@ -1,0 +1,10 @@
+// 1.20.1	2024-05-29T10:29:58.4894379	Block States: endersteel
+400a50501a13791331be516ef1bc0eb8f3ed6684 assets/endersteel/blockstates/enderscrap_ore.json
+18cd6d58dc7a883f84807b1fcd1f18036010d653 assets/endersteel/blockstates/endersteel_block.json
+3bcebbfe1d9bbaf75838aeda7b1f3aa677e95695 assets/endersteel/blockstates/steel_block.json
+8e07e2f361ddd6f5b9386c04e5e02223730c0dde assets/endersteel/models/block/enderscrap_ore.json
+3a370e52a57934d885bdef9f6d9e31b9be0e83eb assets/endersteel/models/block/endersteel_block.json
+bcb82b25a069b9ecee84e911af0481ef27c869ba assets/endersteel/models/block/steel_block.json
+1398d4cfa198290cb638d5e92d1f4520f22cf05c assets/endersteel/models/item/enderscrap_ore.json
+19142e2a5a1d21a570395950dfa779fef2ae2d5d assets/endersteel/models/item/endersteel_block.json
+5da6a7fb740d228a093d914ccdfbc62fe69eac67 assets/endersteel/models/item/steel_block.json
