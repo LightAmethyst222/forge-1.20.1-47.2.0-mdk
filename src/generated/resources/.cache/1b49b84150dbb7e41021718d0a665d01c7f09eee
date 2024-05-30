@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-29T10:56:05.2386002	Tags for minecraft:block mod id endersteel
+// 1.20.1	2024-05-30T17:50:27.5819703	Tags for minecraft:block mod id endersteel
 eb392e168ee3ced2830bf177545010ec0c591c25 data/forge/tags/blocks/needs_netherite_tool.json
 c3247e3439020f238ee7379f3056b188e04879f5 data/minecraft/tags/blocks/mineable/pickaxe.json
 84e718ec100ae6cbb3dd4f2fa5dd776eb6395742 data/minecraft/tags/blocks/needs_stone_tool.json

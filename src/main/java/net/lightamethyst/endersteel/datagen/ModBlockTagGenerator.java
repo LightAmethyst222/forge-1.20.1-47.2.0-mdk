@@ -2,6 +2,7 @@ package net.lightamethyst.endersteel.datagen;
 
 import net.lightamethyst.endersteel.Endersteel;
 import net.lightamethyst.endersteel.block.ModBlocks;
+import net.lightamethyst.endersteel.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -32,6 +33,5 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.ENDERSTEEL_BLOCK.get(),
                         ModBlocks.ENDERSCRAP_ORE.get()
                 );
-
     }
 }

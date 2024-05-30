@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "endersteel:steel_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "S"
+  ],
+  "result": {
+    "item": "endersteel:steel_sword"
+  },
+  "show_notification": true
+}

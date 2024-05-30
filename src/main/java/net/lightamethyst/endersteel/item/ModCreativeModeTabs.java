@@ -25,6 +25,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERSTEEL_INGOT.get());
                         output.accept(ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE.get());
 
+                        output.accept(ModItems.ENDERSTEEL_SWORD.get());
+                        output.accept(ModItems.ENDERSTEEL_PICKAXE.get());
+                        output.accept(ModItems.ENDERSTEEL_AXE.get());
+                        output.accept(ModItems.ENDERSTEEL_SHOVEL.get());
+                        output.accept(ModItems.ENDERSTEEL_HOE.get());
+
+                        output.accept(ModItems.STEEL_SWORD.get());
+                        output.accept(ModItems.STEEL_PICKAXE.get());
+                        output.accept(ModItems.STEEL_AXE.get());
+                        output.accept(ModItems.STEEL_SHOVEL.get());
+                        output.accept(ModItems.STEEL_HOE.get());
+
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.ENDERSTEEL_BLOCK.get());
                         output.accept(ModBlocks.ENDERSCRAP_ORE.get());

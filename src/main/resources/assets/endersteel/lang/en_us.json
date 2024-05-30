@@ -5,6 +5,17 @@
   "item.endersteel.endersteel_ingot": "Endersteel Ingot",
   "item.endersteel.endersteel_upgrade_smithing_template": "Endersteel Upgrade Smithing Template",
 
+  "item.endersteel.endersteel_sword": "Endersteel Sword",
+  "item.endersteel.endersteel_pickaxe": "Endersteel Pickaxe",
+  "item.endersteel.endersteel_axe": "Endersteel Axe",
+  "item.endersteel.endersteel_shovel": "Endersteel Shovel",
+  "item.endersteel.endersteel_hoe": "Endersteel Hoe",
+
+  "item.endersteel.steel_sword": "Steel Sword",
+  "item.endersteel.steel_pickaxe": "Steel Pickaxe",
+  "item.endersteel.steel_axe": "Steel Axe",
+  "item.endersteel.steel_shovel": "Steel Shovel",
+  "item.endersteel.steel_hoe": "Steel Hoe",
 
   "block.endersteel.steel_block": "Block of Steel",
   "block.endersteel.endersteel_block": "Block of Endersteel",

@@ -23,11 +23,28 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.REFINED_ENDERSCRAP);
         simpleItem(ModItems.ENDERSTEEL_UPGRADE_SMITHING_TEMPLATE);
 
+        handheldItem(ModItems.ENDERSTEEL_SWORD);
+        handheldItem(ModItems.ENDERSTEEL_PICKAXE);
+        handheldItem(ModItems.ENDERSTEEL_AXE);
+        handheldItem(ModItems.ENDERSTEEL_SHOVEL);
+        handheldItem(ModItems.ENDERSTEEL_HOE);
+
+        handheldItem(ModItems.STEEL_SWORD);
+        handheldItem(ModItems.STEEL_PICKAXE);
+        handheldItem(ModItems.STEEL_AXE);
+        handheldItem(ModItems.STEEL_SHOVEL);
+        handheldItem(ModItems.STEEL_HOE);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(Endersteel.MOD_ID,"item/" + item.getId().getPath()));
+    }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(Endersteel.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

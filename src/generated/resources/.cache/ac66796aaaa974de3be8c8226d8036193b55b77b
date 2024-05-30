@@ -1,6 +1,16 @@
-// 1.20.1	2024-05-29T10:29:58.4844404	Item Models: endersteel
+// 1.20.1	2024-05-30T17:50:27.5659803	Item Models: endersteel
+b67f27c1cfffbb6d9102aac43db90f402497665f assets/endersteel/models/item/endersteel_axe.json
+951efdbc5389ef081a93ec15fcf08202bb934478 assets/endersteel/models/item/endersteel_hoe.json
 93f3e47cda989efc9df6953b40e638dcbda453a9 assets/endersteel/models/item/endersteel_ingot.json
+a3f4736626a42c3bd6cd71e673b99b5ca41565f6 assets/endersteel/models/item/endersteel_pickaxe.json
+91151bc067bcba1990d7a7bb72dc4bb6febba913 assets/endersteel/models/item/endersteel_shovel.json
+2c461d5517e110a633aeb60f2978a6cd94e1b1ee assets/endersteel/models/item/endersteel_sword.json
 25941a99675f9954c9f62ef43108cdf06c2b6695 assets/endersteel/models/item/endersteel_upgrade_smithing_template.json
 7148d7992d34f1418105f7e9f76a4e88b47da50c assets/endersteel/models/item/raw_enderscrap.json
 769bf34d4394f80ddc9e455dba770be5930e81c6 assets/endersteel/models/item/refined_enderscrap.json
+435dcddfa548c9db1cef0ae4f42ef5b1729fb02a assets/endersteel/models/item/steel_axe.json
+9711b11a18c554d9dfe81f1a8cfb21df1c2167ef assets/endersteel/models/item/steel_hoe.json
 16ad8c69eae9f5936de63213a9ab38c62a07f07d assets/endersteel/models/item/steel_ingot.json
+e62004fb4b7be6ec4a630494c99b0c7a5f4c3cf8 assets/endersteel/models/item/steel_pickaxe.json
+f58bc33f18c76db56570fc73fd71f6e5d355a9a3 assets/endersteel/models/item/steel_shovel.json
+8eff74fad514f33bd163e628c6ff686404d8e857 assets/endersteel/models/item/steel_sword.json
