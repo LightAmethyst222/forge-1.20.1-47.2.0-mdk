@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "endersteel:item/endersteel_pickaxe"
+  }
+}
