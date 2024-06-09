@@ -30,12 +30,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ENDERSTEEL_AXE.get());
                         output.accept(ModItems.ENDERSTEEL_SHOVEL.get());
                         output.accept(ModItems.ENDERSTEEL_HOE.get());
+                        output.accept(ModItems.ENDERSTEEL_HELMET.get());
+                        output.accept(ModItems.ENDERSTEEL_CHESTPLATE.get());
+                        output.accept(ModItems.ENDERSTEEL_LEGGINGS.get());
+                        output.accept(ModItems.ENDERSTEEL_BOOTS.get());
 
                         output.accept(ModItems.STEEL_SWORD.get());
                         output.accept(ModItems.STEEL_PICKAXE.get());
                         output.accept(ModItems.STEEL_AXE.get());
                         output.accept(ModItems.STEEL_SHOVEL.get());
                         output.accept(ModItems.STEEL_HOE.get());
+                        output.accept(ModItems.STEEL_HELMET.get());
+                        output.accept(ModItems.STEEL_CHESTPLATE.get());
+                        output.accept(ModItems.STEEL_LEGGINGS.get());
+                        output.accept(ModItems.STEEL_BOOTS.get());
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.ENDERSTEEL_BLOCK.get());

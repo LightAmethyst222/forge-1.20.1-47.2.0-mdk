@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "endersteel:endersteel_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "endersteel:endersteel_boots"
+  },
+  "template": {
+    "item": "endersteel:endersteel_upgrade_smithing_template"
+  }
+}

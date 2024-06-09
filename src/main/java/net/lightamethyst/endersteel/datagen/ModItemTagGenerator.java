@@ -1,9 +1,11 @@
 package net.lightamethyst.endersteel.datagen;
 
 import net.lightamethyst.endersteel.Endersteel;
+import net.lightamethyst.endersteel.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -17,6 +19,15 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.ENDERSTEEL_HELMET.get(),
+                        ModItems.ENDERSTEEL_CHESTPLATE.get(),
+                        ModItems.ENDERSTEEL_LEGGINGS.get(),
+                        ModItems.ENDERSTEEL_BOOTS.get(),
 
+                        ModItems.STEEL_HELMET.get(),
+                        ModItems.STEEL_CHESTPLATE.get(),
+                        ModItems.STEEL_LEGGINGS.get(),
+                        ModItems.STEEL_BOOTS.get());
     }
 }
