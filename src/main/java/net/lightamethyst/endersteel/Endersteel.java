@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.lightamethyst.endersteel.block.ModBlocks;
 import net.lightamethyst.endersteel.item.ModCreativeModeTabs;
 import net.lightamethyst.endersteel.item.ModItems;
+import net.lightamethyst.endersteel.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,8 @@ public class Endersteel {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
