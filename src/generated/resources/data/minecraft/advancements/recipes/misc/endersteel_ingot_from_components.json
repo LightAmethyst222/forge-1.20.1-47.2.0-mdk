@@ -39,7 +39,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "endersteel:endersteel_upgrade_smithing_template"
+        "recipe": "minecraft:endersteel_ingot_from_components"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -54,7 +54,7 @@
   ],
   "rewards": {
     "recipes": [
-      "endersteel:endersteel_upgrade_smithing_template"
+      "minecraft:endersteel_ingot_from_components"
     ]
   },
   "sends_telemetry_event": false

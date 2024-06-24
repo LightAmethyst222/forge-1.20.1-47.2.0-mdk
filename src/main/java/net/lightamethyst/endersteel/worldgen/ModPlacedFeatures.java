@@ -22,8 +22,8 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, ENDERSCRAP_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ENDERSCRAP_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(4,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(31), VerticalAnchor.absolute(45))));
+                ModOrePlacement.commonOrePlacement(4,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64))));
     }
 
 

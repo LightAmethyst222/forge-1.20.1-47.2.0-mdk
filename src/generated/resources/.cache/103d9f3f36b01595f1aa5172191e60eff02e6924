@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-10T16:53:47.8687724	Registries
+// 1.20.1	2024-06-24T15:28:51.8185753	Registries
 a97bafe7fbb57ccd1a04cc866f593083f7520822 data/endersteel/forge/biome_modifier/add_enderscrap_ore.json
-f74e5d9bd7d6d740b329c68a793f514f0e2b2db4 data/endersteel/worldgen/configured_feature/enderscrap_ore.json
-6d5ac9502bdaa034f0fbb2b073e3829632b15cce data/endersteel/worldgen/placed_feature/enderscrap_ore_placed.json
+fa91f6d4ace7a3ff3afd4e182a75d6e9cd6a3180 data/endersteel/worldgen/configured_feature/enderscrap_ore.json
+9dc97689bddc01d1cb9369f75f6678d98d5cff6a data/endersteel/worldgen/placed_feature/enderscrap_ore_placed.json

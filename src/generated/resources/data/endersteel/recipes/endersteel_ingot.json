@@ -1,13 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "endersteel:endersteel_block"
+  "key": {
+    "E": {
+      "item": "endersteel:refined_enderscrap"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "endersteel:steel_ingot"
     }
+  },
+  "pattern": [
+    "SNS",
+    "NEN",
+    "SNS"
   ],
   "result": {
-    "count": 9,
     "item": "endersteel:endersteel_ingot"
-  }
+  },
+  "show_notification": true
 }

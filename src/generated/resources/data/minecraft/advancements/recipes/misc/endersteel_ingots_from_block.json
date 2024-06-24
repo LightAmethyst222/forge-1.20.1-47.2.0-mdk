@@ -1,24 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_netherite_ingot": {
+    "has_endersteel_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:netherite_ingot"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_refined_enderscrap": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "endersteel:refined_enderscrap"
+              "endersteel:endersteel_block"
             ]
           }
         ]
@@ -27,21 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "endersteel:endersteel_ingot"
+        "recipe": "minecraft:endersteel_ingots_from_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_netherite_ingot",
-      "has_refined_enderscrap",
+      "has_endersteel_block",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "endersteel:endersteel_ingot"
+      "minecraft:endersteel_ingots_from_block"
     ]
   },
   "sends_telemetry_event": false

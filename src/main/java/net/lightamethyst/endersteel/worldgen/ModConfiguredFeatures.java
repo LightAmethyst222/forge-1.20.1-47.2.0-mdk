@@ -21,7 +21,7 @@ public class ModConfiguredFeatures {
         RuleTest endstoneReplaceable = new BlockMatchTest(Blocks.END_STONE);
 
         register(context, ENDERSCRAP_ORE_KEY, Feature.ORE, new OreConfiguration(endstoneReplaceable,
-                ModBlocks.ENDERSCRAP_ORE.get().defaultBlockState(), 1));
+                ModBlocks.ENDERSCRAP_ORE.get().defaultBlockState(), 3));
 
 
     }
